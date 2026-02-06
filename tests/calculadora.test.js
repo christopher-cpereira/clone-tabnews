@@ -1,12 +1,3 @@
-test("nome do teste", callbackFunction);
-function callbackFunction() {
-  console.log("essa função está sendo chamada?");
-}
-
-test("teste 2", function () {
-  console.log("assim também funciona?");
-});
-
-test("test com arrow function", () => {
-  console.log("funciona mesmo kkk");
+test("espero que 1 seja 1", () => {
+  expect(1).toBe(1);
 });
